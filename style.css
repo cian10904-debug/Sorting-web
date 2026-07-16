@@ -1,6 +1,6 @@
 body{
     text-align:center;
-    background-color: rgb(rgb(215, 165, 104), green, blue);
+    background-color: rgb(215, 165, 104);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 button{
@@ -11,7 +11,7 @@ button{
     transition: background-color 0.3s ease;
 }
 button:hover{
-    background-color: rgba(96, 96, 225, 0.644);
+    background-color: rgb(215, 165, 104);
 }
 input{
     padding-bottom:40px;
