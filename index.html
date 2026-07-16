@@ -5,7 +5,7 @@
 <head >
 
 <meta charset="UTF-8" >
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title >Sorting Website</title >
 
 <link rel="stylesheet" href="style.css" >
@@ -18,21 +18,18 @@
 </div>
 <div>
     <h2>Sort by:</h2>
-    <button>
-        <h3 id="t">Text</h3>
-    </button>
-    <button>
-        <h3 id="n">Numerical</h3>
-    </button>
-    <button>
-        <h3 id="ad">Ascending/Descending</h3>
-    </button>
-    <p id="ads"></p> <!--ascending or descending stats-->
+    <button id="t"> <h3>Text</h3> </button>
+    <button id="n"> <h3>Numerical</h3> </button>
+    <button id="a"> <h3>Ascending</h3> </button>
+    <button id="d"> <h3>Descending</h3> </button>
 </div>
 <div>
-    <label for="message">Input values:</label><button>Enter values</button>
+    <label for="message">Input values:</label><button id="ev">Enter values</button>
 </div>
-<input id="message" type="text" placeholder="Type values here"></input>
+
+<input type="text" id="m" placeholder="Type values here"></input>
+<p id="r"></p>
+<script src="app.js"></script>
 
 </body>
 
