@@ -1,0 +1,19 @@
+body{
+    text-align:center;
+    background-color: rgb(rgb(215, 165, 104), green, blue);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+button{
+    background-color:rgb(255, 255, 255);
+    border-radius: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: rgba(96, 96, 225, 0.644);
+}
+input{
+    padding-bottom:40px;
+    padding-right:80px;
+}
